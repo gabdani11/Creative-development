@@ -7,6 +7,40 @@
     <title>Project1</title>
   </head>
   <body>
-    <script src="script.js"></script>
+    <main id="main">
+      <header id="header">
+        <h1>Plane</h1>
+        <nav id="nav">
+          <ul>
+            <li><a href="/products">Products</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/about-us">About Us</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="hero-section">
+        <div class="left-section">
+          <h1>Build Your Dream Fleet Today</h1>
+          <p>
+            Discover high-detail diecast metal models, classic wooden kits, and
+            ready-to-fly replicas from aviation history.
+          </p>
+          <button>Shop Best Sellers</button>
+        </div>
+        <div class="right-section">
+          <canvas id="canvas"></canvas>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="script.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@v0.149.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.149.0/examples/jsm/"
+        }
+      }
+    </script>
   </body>
 </html>

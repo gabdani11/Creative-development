@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  height: 100vh;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  background-image: url("https://cdn.cosmos.so/1d0d0c53-67f6-42f3-9cab-e84bd6f97699?format=webp");
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 55% 100%, 0% 100%);
+}
+.div {
+  min-width: 20rem;
+  width: 40%;
+}
+.img1 {
+  width: 10rem;
+  height: 10rem;
+  float: right;
+  object-fit: cover;
+}
+p {
+  letter-spacing: -1%;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  color: white;
+}
+.para1 {
+  color: white;
+}
+.section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://cdn.cosmos.so/5e4249bd-94f6-493f-90ce-cf421b8bdac7?format=webp&w=2048");
+
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+.img2 {
+  width: 10rem;
+  height: 10rem;
+  float: left;
+  padding-right: 1rem;
+  object-fit: cover;
+}

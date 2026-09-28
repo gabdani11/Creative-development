@@ -58,12 +58,18 @@ const renderer = new THREE.WebGLRenderer({
 renderer.setSize(sizes.width, sizes.height, false);
 //orbit controls
 const controls = new OrbitControls(camera, renderer.domElement);
+controls.cursor = "pointer";
+controls.enableDamping = true;
+controls.enableZoom = false;
+controls.enablePan = false;
+
 
 //camera position
 camera.position.z = 0.7;
 camera.position.y = 0.8;
 camera.position.x = -1;
 
+//resize event
 function onWindowResize() {
   sizes.width = canvas.clientWidth;
   sizes.height = canvas.clientHeight;

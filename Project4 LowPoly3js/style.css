@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  height: 100vh;
+  width: 100vw;
+}
+.hero-section {
+  height: 100%;
+  width: 100%;
+}
+.canvas-wrapper {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+#canvas {
+  height: 100%;
+  width: 100%;
+  background-color: #66b5e9;
+  display: block;
+}
